@@ -1,5 +1,5 @@
 body {
-  align: center;
+  text-align: center;
   width: 66%
 }
 
@@ -12,9 +12,9 @@ body {
 }
 
 #pro {
-  display: none;
+
 }
 
 #cas {
-  display: none;
+
 }
