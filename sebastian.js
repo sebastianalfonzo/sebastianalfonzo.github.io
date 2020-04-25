@@ -19,7 +19,6 @@ function gal() {
 }
 
 function begin() {
-  alert("aggghhhhhh")
   document.getElementbyId("abo").style.display = "none";
   document.getElementbyId("vid").style.display = "none";
   document.getElementbyId("gal").style.display = "none";
