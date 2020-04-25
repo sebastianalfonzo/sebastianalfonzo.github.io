@@ -1,26 +1,35 @@
-function bio() {
-  var b = document.getElementbyId("bio");
-  var p = document.getElementbyId("pro");
-  var c = document.getElementbyId("cas");
-  b.style.display = "block";
-  p.style.display = "none";
-  c.style.display = "none";
+function abo() {
+  var a = document.getElementbyId("abo");
+  var v = document.getElementbyId("vid");
+  var g = document.getElementbyId("gal");
+  a.style.display = "block";
+  v.style.display = "none";
+  g.style.display = "none";
 }
 
-function pro() {
-  var b = document.getElementbyId("bio");
-  var p = document.getElementbyId("pro");
-  var c = document.getElementbyId("cas");
-  b.style.display = "none";
-  p.style.display = "block";
-  c.style.display = "none";
+function vid() {
+  var a = document.getElementbyId("abo");
+  var v = document.getElementbyId("vid");
+  var g = document.getElementbyId("gal");
+  a.style.display = "none";
+  v.style.display = "block";
+  g.style.display = "none";
 }
 
-function cas() {
-  var b = document.getElementbyId("bio");
-  var p = document.getElementbyId("pro");
-  var c = document.getElementbyId("cas");
-  b.style.display = "none";
-  p.style.display = "none";
-  c.style.display = "block";
+function gal() {
+  var a = document.getElementbyId("abo");
+  var v = document.getElementbyId("vid");
+  var g = document.getElementbyId("gal");
+  a.style.display = "none";
+  v.style.display = "none";
+  g.style.display = "block";
+}
+
+function begin() {
+  var a = document.getElementbyId("abo");
+  var v = document.getElementbyId("vid");
+  var g = document.getElementbyId("gal");
+  a.style.display = "none";
+  v.style.display = "none";
+  g.style.display = "none";
 }
