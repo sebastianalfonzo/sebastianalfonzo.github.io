@@ -2,10 +2,16 @@
   max-width: 960px;
   margin: auto;
   text-align: center;
+  background-color: rgb(255,176,209);
+}
+
+#name {
+  font-size: 50px;
 }
 
 .navButton {
-
+  font-size: 18px;
+  background-color: rgb(166,234,255);
 }
 
 #abo {
