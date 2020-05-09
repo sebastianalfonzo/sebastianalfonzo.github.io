@@ -3,6 +3,7 @@ function abo() {
   document.getElementById("vid").style.display = "none";
   document.getElementById("gal").style.display = "none";
   document.getElementById("wel").style.display = "none";
+  document.getElementById("sekrit-zone").style.display = "none";
 }
 
 function vid() {
@@ -10,6 +11,7 @@ function vid() {
   document.getElementById("vid").style.display = "block";
   document.getElementById("gal").style.display = "none";
   document.getElementById("wel").style.display = "none";
+  document.getElementById("sekrit-zone").style.display = "none";
 }
 
 function gal() {
@@ -17,6 +19,7 @@ function gal() {
   document.getElementById("vid").style.display = "none";
   document.getElementById("gal").style.display = "block";
   document.getElementById("wel").style.display = "none";
+  document.getElementById("sekrit-zone").style.display = "none";
 }
 
 function wel() {
@@ -24,4 +27,13 @@ function wel() {
   document.getElementById("vid").style.display = "none";
   document.getElementById("gal").style.display = "none";
   document.getElementById("wel").style.display = "block";
+  document.getElementById("sekrit-zone").style.display = "none";
+}
+
+function sekrit() {
+  document.getElementById("abo").style.display = "none";
+  document.getElementById("vid").style.display = "none";
+  document.getElementById("gal").style.display = "none";
+  document.getElementById("wel").style.display = "none";
+  document.getElementById("sekrit-zone").style.display = "block";
 }
