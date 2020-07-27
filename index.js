@@ -4,9 +4,9 @@ function about() {
   document.getElementById("gallery").style.display = "none";
   document.getElementById("welcome").style.display = "none";
   document.getElementById("sekrit-zone").style.display = "none";
-  document.getElementById("aboutButton").style.color = "#F6828C";
-  document.getElementById("vidButton").style.color = "#F5B0CB";
-  document.getElementById("galButton").style.color = "#F5B0CB";
+  document.getElementById("aboutButton").style.color = "#3D7AB8";
+  document.getElementById("vidButton").style.color = "#122A68";
+  document.getElementById("galButton").style.color = "#122A68";
 }
 
 function videography() {
@@ -15,9 +15,9 @@ function videography() {
   document.getElementById("gallery").style.display = "none";
   document.getElementById("welcome").style.display = "none";
   document.getElementById("sekrit-zone").style.display = "none";
-  document.getElementById("aboutButton").style.color = "#F5B0CB";
-  document.getElementById("vidButton").style.color = "#F6828C";
-  document.getElementById("galButton").style.color = "#F5B0CB";
+  document.getElementById("aboutButton").style.color = "#122A68";
+  document.getElementById("vidButton").style.color = "#3D7AB8";
+  document.getElementById("galButton").style.color = "#122A68";
 }
 
 function gallery() {
@@ -26,9 +26,9 @@ function gallery() {
   document.getElementById("gallery").style.display = "block";
   document.getElementById("welcome").style.display = "none";
   document.getElementById("sekrit-zone").style.display = "none";
-  document.getElementById("aboutButton").style.color = "#F5B0CB";
-  document.getElementById("vidButton").style.color = "#F5B0CB";
-  document.getElementById("galButton").style.color = "#F6828C";
+  document.getElementById("aboutButton").style.color = "#122A68";
+  document.getElementById("vidButton").style.color = "#122A68";
+  document.getElementById("galButton").style.color = "#3D7AB8";
 }
 
 function welcome() {
@@ -37,9 +37,9 @@ function welcome() {
   document.getElementById("gallery").style.display = "none";
   document.getElementById("welcome").style.display = "block";
   document.getElementById("sekrit-zone").style.display = "none";
-  document.getElementById("aboutButton").style.color = "#F5B0CB";
-  document.getElementById("vidButton").style.color = "#F5B0CB";
-  document.getElementById("galButton").style.color = "#F5B0CB";
+  document.getElementById("aboutButton").style.color = "#122A68";
+  document.getElementById("vidButton").style.color = "#122A68";
+  document.getElementById("galButton").style.color = "#122A68";
 }
 
 function sekrit() {
@@ -48,7 +48,7 @@ function sekrit() {
   document.getElementById("gallery").style.display = "none";
   document.getElementById("welcome").style.display = "none";
   document.getElementById("sekrit-zone").style.display = "block";
-  document.getElementById("aboutButton").style.color = "#F5B0CB";
-  document.getElementById("vidButton").style.color = "#F5B0CB";
-  document.getElementById("galButton").style.color = "#F5B0CB";
+  document.getElementById("aboutButton").style.color = "#122A68";
+  document.getElementById("vidButton").style.color = "#122A68";
+  document.getElementById("galButton").style.color = "#122A68";
 }

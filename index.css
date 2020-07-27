@@ -1,7 +1,7 @@
 body {
-  background-color: #122A68;
+  background-color: #F9C8DB;
   color: #122A68;
-  font-family: "Proxima Nova", Arial, sans-serif;
+  font-family: Courier, monospace;
 }
 
 * {
@@ -9,7 +9,11 @@ body {
 }
 
 iframe {
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+h2:hover {
+  cursor: pointer;
 }
 
 .stuff {
@@ -19,7 +23,6 @@ iframe {
 
 #about {
   display: none;
-  color: #F5B0CB;
 }
 
 #videography {
@@ -46,7 +49,6 @@ iframe {
 
 .nav {
   width: 20%;
-  background-color: #F5B0CB;
 }
 
 .left, .right {
@@ -63,7 +65,7 @@ iframe {
 
 .navButton:hover {
   cursor: pointer;
-  color: #F6828C;
+  color: #3D7AB8 !important;
 }
 
 /* Clear floats after the columns */
