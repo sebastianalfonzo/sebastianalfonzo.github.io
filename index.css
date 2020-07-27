@@ -1,0 +1,74 @@
+body {
+  background-color: #122A68;
+  color: #122A68;
+  font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+iframe {
+  margin-top: 30px;
+}
+
+.stuff {
+  max-width: 95%;
+  margin: auto;
+}
+
+#about {
+  display: none;
+  color: #F5B0CB;
+}
+
+#videography {
+  display: none;
+}
+
+#gallery {
+  display: none;
+}
+
+#welcome {
+
+}
+
+#sekrit-zone {
+  display: none;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.nav {
+  width: 20%;
+  background-color: #F5B0CB;
+}
+
+.left, .right {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.middle {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.navButton:hover {
+  cursor: pointer;
+  color: #F6828C;
+}
+
+/* Clear floats after the columns */
+.stuff:after {
+  content: "";
+  display: table;
+  clear: both;
+}
