@@ -8,11 +8,11 @@ body {
   box-sizing: border-box;
 }
 
-iframe {
+img {
   margin-top: 50px;
 }
 
-h2:hover {
+.hov:hover {
   cursor: pointer;
 }
 
@@ -21,23 +21,7 @@ h2:hover {
   margin: auto;
 }
 
-#about {
-  display: none;
-}
-
-#videography {
-  display: none;
-}
-
-#gallery {
-  display: none;
-}
-
-#welcome {
-
-}
-
-#sekrit-zone {
+.hide {
   display: none;
 }
 

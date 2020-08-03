@@ -6,34 +6,34 @@
 <br>
 <div class="stuff">
   <div class="column nav">
-    <h2 onclick="welcome()">SEBASTIAN ALFONZO</h2>
-    <p id="vidButton" class="navButton" onclick="videography()">videography</p>
-    <p id="galButton" class="navButton" onclick="gallery()">gallery</p>
-    <p id="aboutButton" class="navButton" onclick="about()">about / contact</p>
+    <h2 class="hov" onclick="hideShow('welcome')">SEBASTIAN ALFONZO</h2>
+    <p id="vidButton" class="navButton" onclick="hideShow('videography')">videography</p>
+    <p id="galButton" class="navButton" onclick="hideShow('gallery')">gallery</p>
+    <p id="aboutButton" class="navButton" onclick="hideShow('about')">about / contact</p>
   </div>
   <div id="welcome">
     <div class="column middle">
     </div>
   </div>
-  <div id="videography">
+  <div id="videography" class="hide">
     <div class="column middle">
-      <iframe width="800" height="450" src="https://www.youtube.com/embed/PTYPPnKGPPE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="800" height="450" src="https://www.youtube.com/embed/Z44hQPWt6QY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img src="images\poleVaulting.png" width="800" height="450" class="hov" onclick="hideShow('vid1')">
+      <img src="images\poker.png" width="800" height="450" class="hov" onclick="hideShow('vid2')">
     </div>
   </div>
-  <div id="gallery">
+  <div id="gallery" class="hide">
     <div class="column left">
       <br><br>
-      <iframe width="464" height="261" src="https://www.youtube.com/embed/kcfqZphAMYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="464" height="261" src="https://www.youtube.com/embed/w3y63nQ8wJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img src="images\vanHalen.png" width="464" height="261" class="hov" onclick="hideShow('gal1')">
+      <img src="images\garage.png" width="464" height="261" class="hov" onclick="hideShow('gal2')">
     </div>
     <div class="column right">
       <br><br>
-      <iframe width="464" height="261" src="https://www.youtube.com/embed/Wh1fgDMsGPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="464" height="261" src="https://www.youtube.com/embed/Ck1hAWqSsRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img src="images\thunderstruck.png" width="464" height="261" class="hov" onclick="hideShow('gal3')">
+      <img src="images\callumMcphie.png" width="464" height="261" class="hov" onclick="hideShow('gal4')">
     </div>
   </div>
-  <div id="about">
+  <div id="about" class="hide">
     <div class="column left">
       <img src="images/sebastian.jpeg" alt="sebastian">
     </div>
@@ -47,7 +47,49 @@
       </p>
     </div>
   </div>
-  <div id="sekrit-zone">
+  <div id="vid1" class="hide">
+    <div class="column middle">
+      <h1>Vid1 Title</h1>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/PTYPPnKGPPE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>this is the place where there be a little text blurb about the video that is right above it this is very exciting to be able to type stuff and like say what you want about the video you know like this could be very informative and just lots of good things and benefits this could definitely bring to the table for sure for sure</p>
+    </div>
+  </div>
+  <div id="vid2" class="hide">
+    <div class="column middle">
+      <h1>Vid2 Title</h1>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/Z44hQPWt6QY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>this is the place where there be a little text blurb about the video that is right above it this is very exciting to be able to type stuff and like say what you want about the video you know like this could be very informative and just lots of good things and benefits this could definitely bring to the table for sure for sure</p>
+    </div>
+  </div>
+  <div id="gal1" class="hide">
+    <div class="column middle">
+      <h1>Gal1 Title</h1>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/kcfqZphAMYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>this is the place where there be a little text blurb about the video that is right above it this is very exciting to be able to type stuff and like say what you want about the video you know like this could be very informative and just lots of good things and benefits this could definitely bring to the table for sure for sure</p>
+    </div>
+  </div>
+  <div id="gal2" class="hide">
+    <div class="column middle">
+      <h1>Gal2 Title</h1>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/w3y63nQ8wJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>this is the place where there be a little text blurb about the video that is right above it this is very exciting to be able to type stuff and like say what you want about the video you know like this could be very informative and just lots of good things and benefits this could definitely bring to the table for sure for sure</p>
+    </div>
+  </div>
+  <div id="gal3" class="hide">
+    <div class="column middle">
+      <h1>Gal3 Title</h1>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/Wh1fgDMsGPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>this is the place where there be a little text blurb about the video that is right above it this is very exciting to be able to type stuff and like say what you want about the video you know like this could be very informative and just lots of good things and benefits this could definitely bring to the table for sure for sure</p>
+    </div>
+  </div>
+  <div id="gal4" class="hide">
+    <div class="column middle">
+      <h1>Gal4 Title</h1>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/Ck1hAWqSsRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>this is the place where there be a little text blurb about the video that is right above it this is very exciting to be able to type stuff and like say what you want about the video you know like this could be very informative and just lots of good things and benefits this could definitely bring to the table for sure for sure</p>
+    </div>
+  </div>
+  <div id="sekrit-zone" class="hide">
     <div class="column middle">
     </div>
   </div>
