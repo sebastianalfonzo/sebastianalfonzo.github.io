@@ -1,35 +1,7 @@
-function about() {
-  hideElements();
-  document.getElementById("about").style.display = "block";
-  document.getElementById("aboutButton").style.color = "#3D7AB8";
-}
-
-function videography() {
-  hideElements();
-  document.getElementById("videography").style.display = "block";
-  document.getElementById("vidButton").style.color = "#3D7AB8";
-}
-
-function gallery() {
-  hideElements();
-  document.getElementById("gallery").style.display = "block";
-  document.getElementById("galButton").style.color = "#3D7AB8";
-}
-
-function welcome() {
-  hideElements();
-  document.getElementById("welcome").style.display = "block";
-}
-
-function sekrit() {
-  hideElements();
-  document.getElementById("sekrit-zone").style.display = "block";
-}
-
 function hideShow(element) {
   hideElements();
   document.getElementById(element).style.display = "block";
-  
+
   if (element === "videography") {
     document.getElementById("vidButton").style.color = "#3D7AB8";
   }
