@@ -1,0 +1,76 @@
+body {
+  background-color: #F9C8DB;
+  color: #122A68;
+  font-family: Courier, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #122A68;
+}
+
+.stuff {
+  max-width: 95%;
+  margin: auto;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 48px;
+}
+
+.vidTitle {
+  font-size: 24px;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  text-align: center;
+}
+
+.nav {
+  width: 20%;
+}
+
+.left, .right {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.middle {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.navButton:hover {
+  cursor: pointer;
+  color: #3D7AB8;
+}
+
+.lightBlue {
+  color: #3D7AB8;
+}
+
+/* Clear floats after the columns */
+.stuff:after {
+  content: "";
+  display: table;
+  clear: both;
+}

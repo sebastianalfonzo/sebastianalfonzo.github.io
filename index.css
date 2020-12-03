@@ -1,65 +1,39 @@
 body {
-  background-color: #F9C8DB;
-  color: #122A68;
-  font-family: Courier, monospace;
+  background-color: rgb(255, 237, 237);
 }
 
-* {
-  box-sizing: border-box;
-}
-
-img {
-  margin-top: 50px;
-}
-
-a {
-  text-decoration: none;
-  color: #122A68;
-}
-
-.stuff {
-  max-width: 95%;
+.outer {
+  max-width: 40%;
   margin: auto;
 }
 
-.hide {
-  display: none;
+.header {
+  text-align: center;
 }
 
-/* Create three unequal columns that floats next to each other */
 .column {
-  float: left;
-  padding: 10px;
-}
-
-.nav {
-  width: 20%;
+  display: flex;
 }
 
 .left, .right {
-  width: 40%;
+  flex: 50%;
+  /* padding: 10px; */
   text-align: center;
   margin: auto;
 }
 
-.middle {
-  width: 80%;
-  text-align: center;
-  margin: auto;
+.frontButton {
+  margin-bottom: 10%;
+  width: 90%;
 }
 
-.navButton:hover {
-  cursor: pointer;
-  color: #3D7AB8;
+.backArrow {
+  width: 5%;
 }
 
-.lightBlue {
-  color: #3D7AB8;
-}
-
-/* Clear floats after the columns */
-.stuff:after {
-  content: "";
-  display: table;
-  clear: both;
+#sebutton {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
