@@ -2,6 +2,24 @@ body {
   background-color: rgb(255, 237, 237);
 }
 
+iframe {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 50%;
+}
+
+.iframe-container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.instagram-media {
+    height: 100% !important;
+}
+
 .outer {
   max-width: 40%;
   margin: auto;
