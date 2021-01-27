@@ -3,22 +3,30 @@ body {
 }
 
 iframe {
-  width: 100%;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 
-  height: 59.6%;
+  height: 50%;
 }
 
-.vids {
-  max-width: 60%;
+.iframe-container {
+  max-width: 100%;
   margin: auto;
 }
 
-.buttons {
+.instagram-media {
+    height: 100% !important;
+}
+
+.outer {
   max-width: 40%;
   margin: auto;
+}
+
+.header {
+  text-align: center;
 }
 
 .column {
@@ -37,15 +45,12 @@ iframe {
   width: 90%;
 }
 
-#sebutton {
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.backArrow {
+  width: 5%;
 }
 
-#intro {
-  width: 80%;
+#sebutton {
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
