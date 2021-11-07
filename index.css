@@ -1,5 +1,28 @@
 body {
-  background-color: rgb(255, 237, 237);
+  background-color: #F8F8FF;
+  color: #000000;
+  font-family: "loew";
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h2 {
+  font-size: 200%;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 iframe {
@@ -8,45 +31,99 @@ iframe {
   margin-left: auto;
   margin-right: auto;
 
-  height: 59.6%;
+  height: 56.25%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .vids {
-  max-width: 60%;
+  max-width: 82%;
   margin: auto;
 }
 
-.buttons {
-  max-width: 40%;
+.stuff {
+  max-width: 95%;
   margin: auto;
 }
 
+/* Create three unequal columns that floats next to each other */
 .column {
-  display: flex;
+  float: left;
+  padding: 10px;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 48px;
+}
+
+.vidTitle {
+  font-size: 24px;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  text-align: center;
+}
+
+.nav {
+  width: 26%;
 }
 
 .left, .right {
-  flex: 50%;
-  /* padding: 10px; */
+  width: 36%;
   text-align: center;
   margin: auto;
 }
 
-.frontButton {
-  margin-bottom: 10%;
-  width: 90%;
+.middle {
+  width: 74%;
+  text-align: center;
+  margin: auto;
 }
 
-#sebutton {
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.navButton {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
-#intro {
-  width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.navButton:hover {
+  cursor: pointer;
+  color: #3D7AB8;
+}
+
+.lilNavButton {
+  font-size: 14px;
+  text-indent: 20px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.lilNavButton:hover {
+  cursor: pointer;
+  color: #3D7AB8;
+}
+
+.navNoHov {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.lightBlue {
+  color: #3D7AB8;
+}
+
+/* Clear floats after the columns */
+.stuff:after {
+  content: "";
+  display: table;
+  clear: both;
 }

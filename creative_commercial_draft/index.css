@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(255, 237, 237);
+}
+
+iframe {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 59.6%;
+}
+
+.vids {
+  max-width: 60%;
+  margin: auto;
+}
+
+.buttons {
+  max-width: 40%;
+  margin: auto;
+}
+
+.column {
+  display: flex;
+}
+
+.left, .right {
+  flex: 50%;
+  /* padding: 10px; */
+  text-align: center;
+  margin: auto;
+}
+
+.frontButton {
+  margin-bottom: 10%;
+  width: 90%;
+}
+
+#sebutton {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
