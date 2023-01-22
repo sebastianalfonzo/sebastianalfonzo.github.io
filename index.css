@@ -1,17 +1,17 @@
 @media screen and (max-device-width: 1024px) {
 
-  .columnfloatrightm {
+  .columnfloatright {
     padding: 10px;
   }
 
-  .rightm {
+  .right {
     width: 74%;
     text-align: center;
     margin: auto;
     float: right;
   }
 
-  .leftm {
+  .left {
     width: 74%;
     text-align: center;
     margin: auto;
