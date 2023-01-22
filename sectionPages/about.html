@@ -1,35 +1,57 @@
 <head>
   <link rel="stylesheet" type="text/css" href="../index.css">
+  <script src="../index.js"></script>
 </head>
 <body>
 <br>
 <div class="stuff">
+
   <div class="column nav">
     <a href="..\index.html">
       <h2>Sebastian Alfonzo</h2>
     </a>
-    <p class="navNoHov">Videography</p>
-    <a href="cse.html">
-      <p class="lilNavButton" >College of Science & Engineering</p>
-    </a>
-    <a href="wake.html">
-      <p class="lilNavButton">The Wake Magazine</p>
-    </a>
-    <a href="freelance.html">
-      <p class="lilNavButton">Freelance</p>
-    </a>
-    <p class="navNoHov">Gallery</p>
-    <a href="video.html">
-      <p class="lilNavButton">Video</p>
-    </a>
-    <a href="photography.html">
-      <p class="lilNavButton">Photography</p>
-    </a>
+
+    <p class="navButton" onclick="vidHideShowIndexAbout()">Videography</p>
+    <div id="vidButtons" style="display: none;">
+      <a href="cse.html">
+        <p class="lilNavButton">College of Science & Engineering</p>
+      </a>
+      <a href="wake.html">
+        <p class="lilNavButton">The Wake Magazine</p>
+      </a>
+      <a href="freelance.html">
+        <p class="lilNavButton">Freelance</p>
+      </a>
+    </div>
+
+    <p class="navButton" onclick="galHideShowIndexAbout()">Gallery</p>
+    <div id="galButtons" style="display: none;">
+      <a href="video.html">
+        <p class="lilNavButton">Video</p>
+      </a>
+      <a href="photography.html">
+        <p class="lilNavButton">Photography</p>
+      </a>
+    </div>
+
     <a href="about.html">
-      <p class="navButton">about / contact</p>
+      <p class="navButton" style="color: #3D7AB8">about / contact</p>
     </a>
   </div>
-  <div class="column left center">
+
+
+
+  <div class="columnfloatright right">
+    <p style="text-align:left">
+      My name is Sebastian Manuel Del Valle Alfonzo Manzo. I was born in Valencia, Venezuela. When I was five years old, my family migrated to Saint Paul, Minnesota’s Midway neighborhood. Growing up, I organized a weekly teen night at Hancock Recreation Center, advocated for expanded public transit access for students, and produced video and print journalism.<br><br>
+  I discovered my love for art and communications in college. At the University of Minnesota, I balanced directing the Wake Student Art Magazine’s multimedia department, producing digital content for the College of Science and Engineering, and a full course load of art, literature, and theory classes. I graduated with a BA in Cultural Studies, Comparative Literature, and Cinema in the spring of 2021.<br><br>
+  Since graduating, I’ve been working as an archivist, second camera, and production assistant for a PBS Frontline documentary film about public safety in Minneapolis. I  have also been working as a communicator and organizer for Serpentina Arts: a collective of Latinx visual artists with an emphasis on professional development and community networking.<br><br>
+  I am interested in working between digital and analog means of both still and moving image making. My art is a vehicle for reflection, exploration, and documentation of my experiences. It is also a means of connecting with my community and learning from it. Making art has catalyzed some of the most meaningful conversations, moments, and relationships in my life.<br><br>
+  Thank you for visiting my digital space and taking a moment to learn about me. If you would like to connect, feel free to email me at sebastianalfonzomanzo@gmail.com, or send me a message on <a href="https://www.instagram.com/alfonzomanzo/" style="color: #3D7AB8;">instagram: @alfonzomanzo</a>.
+    </p>
+  </div>
+
+  <div class="columnfloatright left center">
     <br>
     <img src="../images/shadow_bas.png" alt="sebastian" height="650" align="left">
     <br><br>
@@ -42,14 +64,7 @@
     <img src="../images/theater_bas.jpg" alt="sebastian" height="323" align="left">
     <br><br>
   </div>
-  <div class="column right">
-    <p style="text-align:left">
-      My name is Sebastian Manuel Del Valle Alfonzo Manzo. I was born in Valencia, Venezuela. When I was five years old, my family migrated to Saint Paul, Minnesota’s Midway neighborhood. Growing up, I organized a weekly teen night at Hancock Recreation Center, advocated for expanded public transit access for students, and produced video and print journalism.<br><br>
-I discovered my love for art and communications in college. At the University of Minnesota, I balanced directing the Wake Student Art Magazine’s multimedia department, producing digital content for the College of Science and Engineering, and a full course load of art, literature, and theory classes. I graduated with a BA in Cultural Studies, Comparative Literature, and Cinema in the spring of 2021.<br><br>
-Since graduating, I’ve been working as an archivist, second camera, and production assistant for a PBS Frontline documentary film about public safety in Minneapolis. I  have also been working as a communicator and organizer for Serpentina Arts: a collective of Latinx visual artists with an emphasis on professional development and community networking.<br><br>
-I am interested in working between digital and analog means of both still and moving image making. My art is a vehicle for reflection, exploration, and documentation of my experiences. It is also a means of connecting with my community and learning from it. Making art has catalyzed some of the most meaningful conversations, moments, and relationships in my life.<br><br>
-Thank you for visiting my digital space and taking a moment to learn about me. If you would like to connect, feel free to email me at sebastianalfonzomanzo@gmail.com, or send me a message on <a href="https://www.instagram.com/alfonzomanzo/" style="color: #3D7AB8;">instagram: @alfonzomanzo</a>.
-    </p>
+
   </div>
-</div>
+
 </body>

@@ -1,5 +1,6 @@
 <head>
   <link rel="stylesheet" type="text/css" href="../index.css">
+  <script src="../index.js"></script>
 </head>
 <body>
 <br>
@@ -8,23 +9,30 @@
     <a href="../index.html">
       <h2>Sebastian Alfonzo</h2>
     </a>
-    <p class="navNoHov">Videography</p>
-    <a href="cse.html">
-      <p class="lilNavButton" >College of Science & Engineering</p>
-    </a>
-    <a href="wake.html">
-      <p class="lilNavButton">The Wake Magazine</p>
-    </a>
-    <a href="freelance.html">
-      <p class="lilNavButton">Freelance</p>
-    </a>
-    <p class="navNoHov">Gallery</p>
-    <a href="video.html">
-      <p class="lilNavButton">Video</p>
-    </a>
-    <a href="photography.html">
-      <p class="lilNavButton">Photography</p>
-    </a>
+
+    <p class="navButton" onclick="vidHideShow()">Videography</p>
+    <div id="vidButtons" style="display: none;">
+      <a href="cse.html">
+        <p class="lilNavButton">College of Science & Engineering</p>
+      </a>
+      <a href="wake.html">
+        <p class="lilNavButton">The Wake Magazine</p>
+      </a>
+      <a href="freelance.html">
+        <p class="lilNavButton">Freelance</p>
+      </a>
+    </div>
+
+    <p class="navButton">Gallery</p>
+    <div id="galButtons" style="display: block;">
+      <a href="video.html">
+        <p class="lilNavButton" style="color: #3D7AB8">Video</p>
+      </a>
+      <a href="photography.html">
+        <p class="lilNavButton">Photography</p>
+      </a>
+    </div>
+
     <a href="about.html">
       <p class="navButton">about / contact</p>
     </a>
@@ -32,23 +40,33 @@
   <div class="column middle">
     <div class="vids">
       <!-- cocktail -->
-       <iframe src="https://player.vimeo.com/video/493853142" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      <div class="iframe-container">
+        <iframe src="https://player.vimeo.com/video/493853142" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
       <br>
       <br>
       <!-- galaxy clusters -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/SyQzRlDnE58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="iframe-container">
+        <iframe src="https://www.youtube.com/embed/SyQzRlDnE58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
       <br>
       <br>
       <!-- snack -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/S0z7i4xCVSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="iframe-container">
+        <iframe src="https://www.youtube.com/embed/S0z7i4xCVSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
       <br>
       <br>
       <!-- 10 iconic marvel scenes -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/xqT3LTrKH3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="iframe-container">
+        <iframe src="https://www.youtube.com/embed/xqT3LTrKH3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
       <br>
       <br>
       <!-- juan -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZI1Np6cSSxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="iframe-container">
+        <iframe src="https://www.youtube.com/embed/ZI1Np6cSSxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 </div>

@@ -1,23 +1,3 @@
-@media only screen and (max-device-width: 1024px) {
-
-  .columnfloatrightm {
-    padding: 10px;
-  }
-
-  .rightm {
-    width: 74%;
-    text-align: center;
-    margin: auto;
-    float: right;
-  }
-
-  .leftm {
-    width: 74%;
-    text-align: center;
-    margin: auto;
-  }
-}
-
 body {
   background-color: #F8F8FF;
   color: #000000;
@@ -39,43 +19,19 @@ a {
   color: #000000;
 }
 
-p {
-  text-decoration: none;
-  color: #000000;
-}
-
 h2 {
   font-size: 200%;
   margin-top: 20px;
   margin-bottom: 30px;
-  text-decoration: none;
-  color: #000000;
 }
 
-/* iframe {
+iframe {
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 
   height: 56.25%;
-} */
-
-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.iframe-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 .center {
@@ -97,16 +53,6 @@ iframe {
 
 /* Create three unequal columns that floats next to each other */
 .column {
-  float: left;
-  padding: 10px;
-}
-
-.columnfloatright {
-  float: right;
-  padding: 10px;
-}
-
-.columnfloatleft {
   float: left;
   padding: 10px;
 }
@@ -134,11 +80,6 @@ iframe {
   width: 36%;
   text-align: center;
   margin: auto;
-}
-
-.wrap {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .middle {
@@ -185,8 +126,4 @@ iframe {
   content: "";
   display: table;
   clear: both;
-}
-
-.abouttext {
-  white-space: nowrap;
 }
