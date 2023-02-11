@@ -174,7 +174,7 @@ iframe {
 }
 
 .abouttext {
-  white-space: nowrap;
+  text-align: left;
 }
 
 @media screen and (max-width: 1275px) {
@@ -184,14 +184,20 @@ iframe {
   }
 
   .right {
-    width: 74%;
+    width: 100%;
     text-align: center;
     margin: auto;
     float: right;
   }
 
   .left {
-    width: 74%;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .middle {
+    width: 100%;
     text-align: center;
     margin: auto;
   }
@@ -204,6 +210,28 @@ iframe {
 
   .nav {
     width: 100%;
+  }
+
+  h2 {
+    font-size: 9vw;
+  }
+
+  .navButton {
+    font-size: 6vw;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .lilNavButton {
+    font-size: 4vw;
+    text-indent: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  .abouttext {
+    text-align: left;
+    font-size: 3vw;
   }
 
   }
