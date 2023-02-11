@@ -202,5 +202,9 @@ iframe {
     height: auto;
   }
 
+  .nav {
+    width: 100%;
+  }
+
   }
 }
