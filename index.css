@@ -58,9 +58,19 @@ iframe {
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
-.insta-container {
+.iframe-container-small {
   position: relative;
   overflow: hidden;
+  width: 50%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  line-height:0px;
+}
+
+.iframe-small {
+  height:100%;
+}
+
+.photo {
   width: 100%;
 }
 
@@ -179,6 +189,14 @@ iframe {
 
 @media screen and (max-width: 1275px) {
 
+  body {
+    background-color: #F8F8FF;
+    color: #000000;
+    font-family: "loew";
+    font-weight: 400;
+    font-style: normal;
+  }
+
   .columnfloatright {
     padding: 10px;
   }
@@ -214,6 +232,10 @@ iframe {
 
   h2 {
     font-size: 9vw;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #000000;
   }
 
   .navButton {
@@ -234,5 +256,20 @@ iframe {
     font-size: 4vw;
   }
 
+  .vids {
+    max-width: 100%;
+    margin: auto;
   }
+
+  .iframe-container-small {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+
+  .iframe-small {
+    height: 100%;
+  }
+
 }
