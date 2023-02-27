@@ -1,7 +1,12 @@
+@font-face {
+  font-family: lefont;
+  src: url(sansation_light.woff);
+}
+
 body {
   background-color: #F8F8FF;
   color: #000000;
-  font-family: "loew";
+  font-family: lefont;
   font-weight: 400;
   font-style: normal;
 }
