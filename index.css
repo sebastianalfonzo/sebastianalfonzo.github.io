@@ -195,14 +195,6 @@ iframe {
 
 @media screen and (max-width: 1275px) {
 
-  body {
-    background-color: #F8F8FF;
-    color: #000000;
-    font-family: "loew";
-    font-weight: 400;
-    font-style: normal;
-  }
-
   .columnfloatright {
     padding: 10px;
   }
