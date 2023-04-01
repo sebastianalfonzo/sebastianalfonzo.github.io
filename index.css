@@ -1,11 +1,11 @@
 @font-face {
-  font-family: monsterrat;
-  src: url(./Monsterrat-Medium.woff) format('woff'),
-       url(./Montserrat-Medium.ttf) format('truetype');
+  font-family: lato;
+  src: url(./lato-regular.woff) format('woff'),
+       url(./Lato-Regular.ttf) format('truetype');
 }
 
 body {
-  font-family: monsterrat;
+  font-family: lato;
   background-color: #E4E9F1;
   color: #000000;
   font-weight: 400;
